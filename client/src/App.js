@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import logo from './assets/shoesLogo.svg';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
             <div class="container">
               {/* Brand and toggle get grouped for better mobile display */}
               <a class="navbar-brand logo_h" href="index.html">
-                <img src="img/logo.png" alt="" />
+                <img src={logo} alt="" width="70px" height="auto" />
               </a>
               <button
                 class="navbar-toggler"
